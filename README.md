@@ -8,12 +8,22 @@
 
 ## useMemo for Expensive Calculations
 
-## React.memo for Reducing re-renders
+- wrap a function in useMemo to memoize expensive results
+- use web worker in some cases
 
-## Window Large Lists with react-virtual
+## React.memo for Reducing re-renders
 
 ## Optimize Context Value
 
+- memoize context value
+- separate the contexts
+
 ## Fix Perf Death by a Thousand Cuts
+
+- colocate state
+- separate context
+- consuming components
+- slice of App state
+- use recoil
 
 ## Production Performance Monitoring
